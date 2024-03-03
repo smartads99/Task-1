@@ -6,7 +6,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'who-we-are': "url('/src/assets/Sativa1.png')",
+
+        'footer-texture': "url('/src/assets/footerbg-img.png')",
+      }
+    },
   },
   plugins: [],
 }
