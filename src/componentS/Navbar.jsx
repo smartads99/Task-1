@@ -20,7 +20,7 @@ const Navbar = () => {
           <a href="#" className="text-black hover:text-green-400 text-2xl font-semibold">Contact Us</a>
         </div>
         {/* Button */}
-        <button className="bg-green-500 text-white px-5 py-4 rounded flex items-center space-x-2 hover:bg-green-600 mr-12">
+        <button className="bg-green-500 text-white px-5 py-4 rounded flex items-center space-x-2 hover:bg-orange-600 mr-12">
 
         <img src={Voucher} alt="Button Icon" className="h-6 w-6" />
       <span className="text-2xl">GET COUPONS</span>

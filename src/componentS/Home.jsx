@@ -15,7 +15,7 @@ function Home() {
   return (
     <div>
       <div className="container flex justify-between items-center">
-        <div></div>
+        <div className="mx-40">
         <div className="font-bold text-5xl">
           <h1>
             No <span class="text-orange-500">Middleman</span>,
@@ -25,10 +25,11 @@ function Home() {
             {" "}
             <span className="text-green-600">Freshness</span>
           </h1>
-          <button className="bg-green-500 text-white px-5 py-4 rounded flex items-center space-x-2 hover:bg-green-600 mr-12 mt-8">
+          <button className="bg-green-500 text-white px-5 py-4 rounded flex items-center space-x-2 hover:bg-orange-600 mr-12 mt-8">
             <img src={Voucher} alt="Button Icon" className="" />
             <span className="text-2xl">GET COUPONS</span>
           </button>
+        </div>
         </div>
         <div class="personimg">
           <img src={personImg} alt="" />
@@ -78,7 +79,7 @@ function Home() {
         </div>
       </div>
 
-      <div className="py-10">
+      <div className="py-8">
         <h1 className="text-center text-4xl font-semibold pb-5">
           OUR UNIQUE APPROACH
         </h1>
@@ -116,7 +117,7 @@ function Home() {
         </div>
       </div>
 
-      <img  className='mx-60'src={howitwork} alt="" />
+      <img  className='mx-60 pt-20'src={howitwork} alt="" />
 
       <div className="px-40">
         <div className="flex justify-items-center p-5 ">
